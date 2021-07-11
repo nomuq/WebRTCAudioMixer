@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0260BF71C7065442AA1B0CCD /* Pods_AgoraDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D31769591EB5A1E7FC505 /* Pods_AgoraDemo.framework */; };
+		A2537C8C269AAB240042C4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2537C8B269AAB240042C4C9 /* AppDelegate.swift */; };
+		A2537C8E269AAB240042C4C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2537C8D269AAB240042C4C9 /* SceneDelegate.swift */; };
+		A2537C90269AAB240042C4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2537C8F269AAB240042C4C9 /* ViewController.swift */; };
+		A2537C93269AAB240042C4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2537C91269AAB240042C4C9 /* Main.storyboard */; };
+		A2537C95269AAB270042C4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2537C94269AAB270042C4C9 /* Assets.xcassets */; };
+		A2537C98269AAB270042C4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2537C96269AAB270042C4C9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11DA2E9B4AA039E5CCAF6B53 /* Pods-AgoraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraDemo.release.xcconfig"; path = "Target Support Files/Pods-AgoraDemo/Pods-AgoraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1A3D31769591EB5A1E7FC505 /* Pods_AgoraDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgoraDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8631FC82139D26B9F472AF /* Pods-AgoraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraDemo.debug.xcconfig"; path = "Target Support Files/Pods-AgoraDemo/Pods-AgoraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2537C88269AAB240042C4C9 /* AgoraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgoraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2537C8B269AAB240042C4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2537C8D269AAB240042C4C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2537C8F269AAB240042C4C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2537C92269AAB240042C4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2537C94269AAB270042C4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2537C97269AAB270042C4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2537C99269AAB270042C4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2537C85269AAB240042C4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0260BF71C7065442AA1B0CCD /* Pods_AgoraDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ACF5C3E0B1C6A17927C79B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A8631FC82139D26B9F472AF /* Pods-AgoraDemo.debug.xcconfig */,
+				11DA2E9B4AA039E5CCAF6B53 /* Pods-AgoraDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2537C7F269AAB240042C4C9 = {
+			isa = PBXGroup;
+			children = (
+				A2537C8A269AAB240042C4C9 /* AgoraDemo */,
+				A2537C89269AAB240042C4C9 /* Products */,
+				2ACF5C3E0B1C6A17927C79B6 /* Pods */,
+				F2862E273E346C0A01CF2D60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2537C89269AAB240042C4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2537C88269AAB240042C4C9 /* AgoraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2537C8A269AAB240042C4C9 /* AgoraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2537C8B269AAB240042C4C9 /* AppDelegate.swift */,
+				A2537C8D269AAB240042C4C9 /* SceneDelegate.swift */,
+				A2537C8F269AAB240042C4C9 /* ViewController.swift */,
+				A2537C91269AAB240042C4C9 /* Main.storyboard */,
+				A2537C94269AAB270042C4C9 /* Assets.xcassets */,
+				A2537C96269AAB270042C4C9 /* LaunchScreen.storyboard */,
+				A2537C99269AAB270042C4C9 /* Info.plist */,
+			);
+			path = AgoraDemo;
+			sourceTree = "<group>";
+		};
+		F2862E273E346C0A01CF2D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3D31769591EB5A1E7FC505 /* Pods_AgoraDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2537C87269AAB240042C4C9 /* AgoraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2537C9C269AAB270042C4C9 /* Build configuration list for PBXNativeTarget "AgoraDemo" */;
+			buildPhases = (
+				8DCA268E68BDAA9F4E090A10 /* [CP] Check Pods Manifest.lock */,
+				A2537C84269AAB240042C4C9 /* Sources */,
+				A2537C85269AAB240042C4C9 /* Frameworks */,
+				A2537C86269AAB240042C4C9 /* Resources */,
+				583E870210679D2108E47CD2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraDemo;
+			packageProductDependencies = (
+			);
+			productName = AgoraDemo;
+			productReference = A2537C88269AAB240042C4C9 /* AgoraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2537C80269AAB240042C4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A2537C87269AAB240042C4C9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A2537C83269AAB240042C4C9 /* Build configuration list for PBXProject "AgoraDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2537C7F269AAB240042C4C9;
+			packageReferences = (
+			);
+			productRefGroup = A2537C89269AAB240042C4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2537C87269AAB240042C4C9 /* AgoraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2537C86269AAB240042C4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2537C98269AAB270042C4C9 /* LaunchScreen.storyboard in Resources */,
+				A2537C95269AAB270042C4C9 /* Assets.xcassets in Resources */,
+				A2537C93269AAB240042C4C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		583E870210679D2108E47CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraDemo/Pods-AgoraDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraDemo/Pods-AgoraDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraDemo/Pods-AgoraDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCA268E68BDAA9F4E090A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2537C84269AAB240042C4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2537C90269AAB240042C4C9 /* ViewController.swift in Sources */,
+				A2537C8C269AAB240042C4C9 /* AppDelegate.swift in Sources */,
+				A2537C8E269AAB240042C4C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2537C91269AAB240042C4C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2537C92269AAB240042C4C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2537C96269AAB270042C4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2537C97269AAB270042C4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2537C9A269AAB270042C4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2537C9B269AAB270042C4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2537C9D269AAB270042C4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8631FC82139D26B9F472AF /* Pods-AgoraDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3ZMGJC77C;
+				INFOPLIST_FILE = AgoraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.agorademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2537C9E269AAB270042C4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DA2E9B4AA039E5CCAF6B53 /* Pods-AgoraDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3ZMGJC77C;
+				INFOPLIST_FILE = AgoraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.satish.agorademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2537C83269AAB240042C4C9 /* Build configuration list for PBXProject "AgoraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2537C9A269AAB270042C4C9 /* Debug */,
+				A2537C9B269AAB270042C4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2537C9C269AAB270042C4C9 /* Build configuration list for PBXNativeTarget "AgoraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2537C9D269AAB270042C4C9 /* Debug */,
+				A2537C9E269AAB270042C4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2537C80269AAB240042C4C9 /* Project object */;
+}

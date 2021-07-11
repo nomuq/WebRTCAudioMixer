@@ -1,0 +1,16 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.4.5)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: af270dad94a9ef8f8ba82f5f3c7c4145b3dda6ec
+
+PODFILE CHECKSUM: e314a84b46c78c417dcdb86c3e476e36fb20dfd8
+
+COCOAPODS: 1.10.1
